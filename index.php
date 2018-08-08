@@ -3,8 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Matt's Resume</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<meta name="B-verify" content="888ae82e667b8116b02c72860cda3440731ce241" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -65,49 +67,54 @@
   </style>
   <div class="container">
     <div class="row">
-      <div class="col-sm-12">
-        <div class="col-sm-9">
-          <h3 class="section_title">Summary</h3>
-          <div class="section_area">
-            <p>Experienced Web Developer very eager to continue learning is seeking a
-               position that both challenges and improves my technical abilities. Has a passion
-               for automating tasks and improving workflow and strives to be a professional
-               in the Network Security field.</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <h3 class="section_title">Info</h3>
-          <table>
-            <tr>
-              <td><img src="Img/InfoIconGraphic1.png" alt="Graphic Not Displayed!" /></td>
-              <td>Matt Williams</td>
-            </tr>
-            <tr>
-              <td><img src="Img/PhoneIcone.png" alt="Graphic Not Displayed!" /></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td><img src="Img/EmailIconGraphic.png" alt="Graphic Not Displayed!" /></td>
-              <td>codepro21@gmail.com</td>
-            </tr>
-            <tr>
-              <td><img src="Img/LinkedinIcon.png" alt="Graphic Not Displayed!" /></td>
-              <td></td>
-            </tr>
-          </table>
-        </div>
+      <div class="col-md-12">
+				<div class="row">
+					<div class="col-md-9">
+	          <h3 class="section_title">Summary</h3>
+	          <div class="section_area">
+	            <p>Experienced Web Developer very eager to continue learning is seeking a
+	               position that both challenges and improves my technical abilities. Has a passion
+	               for automating tasks and improving workflow and strives to be a professional
+	               in the Network Security field.</p>
+	          </div>
+	        </div>
+	        <div class="col-md-3">
+	          <h3 class="section_title">Info</h3>
+	          <table>
+	            <tr>
+	              <td><img src="Img/InfoIconGraphic1.png" alt="Graphic Not Displayed!" /></td>
+	              <td>Matt Williams</td>
+	            </tr>
+	            <tr>
+	              <td><img src="Img/PhoneIcone.png" alt="Graphic Not Displayed!" /></td>
+	              <td>(951) 852-9001</td>
+	            </tr>
+	            <tr>
+	              <td><img src="Img/EmailIconGraphic.png" alt="Graphic Not Displayed!" /></td>
+	              <td>codepro21@gmail.com</td>
+	            </tr>
+	            <tr>
+	              <td><img src="Img/LinkedinIcon.png" alt="Graphic Not Displayed!" /></td>
+	              <td>www.linkedin.com/in/matthew-williams-14a301133</td>
+	            </tr>
+	          </table>
+	        </div>
+				</div>
+
       </div>
-      <div class="col-sm-12">
+      <div class="col-md-12">
         <h3 class="section_title">Experience</h3>
-				<div class="col-sm-4">
-					<p class="job_title">Web Developer<br />
-					Material Flow & Conveyors</p>
+				<div class="row">
+					<div class="col-md-4 ">
+						<p class="job_title">Web Developer<br />
+						Material Flow & Conveyors</p>
+					</div>
+					<div class="col-md-3">
+						<p class="job_title">02/2017 to Present<br />
+						Donald, OR.</p>
+					</div>
 				</div>
-				<div class="col-sm-3 col-sm-offset-5">
-					<p class="job_title">02/2017 to Present<br />
-					Donald, OR.</p>
-				</div>
-					<div class="col-sm-10 col-sm-offset-1">
+					<div class="col-md-10 col-md-offset-1">
 						<p class="job_desc">Scrape and filter data from websites and Excel sheets using PHP & Regular Expressions
 						to be stored in database to be dynamically displayed. Optimize load speed by
 						debugging, simplifying and minifying code. Create landing pages for Google Ad words
@@ -115,15 +122,18 @@
 						to help ensure authorized access only. C# with ASP .NET MVC experience. See website at https://materialflow.com</p>
 					</div>
 
-					<div class="col-sm-4">
-						<p class="job_title">Web Developer<br />
-						Lattice Semiconductor</p>
+					<div>
+						<div class="col-md-4">
+							<p class="job_title">Web Developer<br />
+							Lattice Semiconductor</p>
+						</div>
+						<div class="col-md-3">
+							<p class="job_title">03/16/2017 to 08/25/2017<br />
+							Portland, OR.</p>
+						</div>
 					</div>
-					<div class="col-sm-3 col-sm-offset-5">
-						<p class="job_title">03/16/2017 to 08/25/2017<br />
-						Portland, OR.</p>
-					</div>
-						<div class="col-sm-10 col-sm-offset-1">
+
+						<div class="col-md-10 col-md-offset-1">
 							<p class="job_desc">Contracted out to Lattice Semiconductor to update and provide Quality Assurance to Support Database.
 							Working with their development team both in office and remotely to implement around
 							2200 FAQ's answering client questions regarding Lattice software. Examples of Work here can be found at
@@ -131,21 +141,21 @@
 							Contact: Jamie Scott at Ultimate Staffing (503)684.1013</p>
 						</div>
 
-						<div class="col-sm-4">
+						<div class="col-md-4">
 							<p class="job_title">Web Developer<br />
 							PEI Manufacturing</p>
 						</div>
-						<div class="col-sm-3 col-sm-offset-5">
+						<div class="col-md-3 col-md-offset-5">
 							<p class="job_title">04/05/2016 to 02/25/2017<br />
 							Portland, OR.</p>
 						</div>
-						<div class="col-sm-10 col-sm-offset-1">
+						<div class="col-md-10 col-md-offset-1">
 							<p class="job_desc">Contact: Jarrod Royce             (360)831-3308</p>
 						</div>
 			</div>
-    <div class="col-sm-12">
+    <div class="col-md-12">
       <h3 class="section_title">Education</h3>
-			<div class="col-sm-10 col-sm-offset-1 well">
+			<div class="col-md-10 col-md-offset-1 well">
 				<table id="education_table">
 					<tr>
 						<td>Truckee Meadows Community College</td>
@@ -194,14 +204,14 @@
 			</div>
     </div>
 
-    <div class="col-sm-12">
+    <div class="col-md-12">
       <h3 class="section_title">Certifications</h3>
     </div>
 
-    <div class="col-sm-12">
+    <div class="col-md-12">
       <h3 class="section_title">Skills</h3>
       <div id="skills_section">
-        <div class="col-sm-4">
+        <div class="col-md-4">
           <h4 class="skills_title">Programming Languages</h4>
           <ul class="skills_list">
             <li>HTML</li>
@@ -214,7 +224,7 @@
             <li>LINUX</li>
           </ul>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-4">
           <h4 class="skills_title">Frameworks</h4>
           <ul class="skills_list">
             <li>bootstrap</li>
@@ -222,7 +232,7 @@
             <li>ASP.NET MVC</li>
           </ul>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-4">
           <h4 class="skills_title">Additional</h4>
           <ul class="skills_list">
             <li>Adobe Photoshop</li>
@@ -238,7 +248,7 @@
     </div>
   </div>
 
-    <div class="col-sm-12 text-center">
+    <div class="col-md-12 text-center">
       <h3 class="section_title">REFERENCES:</h3>
       <table style="margin: auto; width: 80%; font-size: 125%;">
         <tr style="font-weight: 600; font-size: 125%;">
@@ -266,8 +276,5 @@
     </div>
   </div>
 </div>
-<!--Javascript Links-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
