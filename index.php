@@ -105,11 +105,11 @@
       <div class="col-md-12">
         <h3 class="section_title">Experience</h3>
 				<div class="row">
-					<div class="col-md-4 ">
+					<div class="col-md-4">
 						<p class="job_title">Web Developer<br />
 						Material Flow & Conveyors</p>
 					</div>
-					<div class="col-md-3">
+					<div style="position: relative; left: 25vw;" class="col-md-3">
 						<p class="job_title">02/2017 to Present<br />
 						Donald, OR.</p>
 					</div>
@@ -122,12 +122,12 @@
 						to help ensure authorized access only. C# with ASP .NET MVC experience. See website at https://materialflow.com</p>
 					</div>
 
-					<div>
+					<div class="row">
 						<div class="col-md-4">
 							<p class="job_title">Web Developer<br />
 							Lattice Semiconductor</p>
 						</div>
-						<div class="col-md-3">
+						<div style="position: relative; left: 25vw;"  class="col-md-3">
 							<p class="job_title">03/16/2017 to 08/25/2017<br />
 							Portland, OR.</p>
 						</div>
@@ -141,14 +141,17 @@
 							Contact: Jamie Scott at Ultimate Staffing (503)684.1013</p>
 						</div>
 
-						<div class="col-md-4">
-							<p class="job_title">Web Developer<br />
-							PEI Manufacturing</p>
+						<div class="row">
+							<div class="col-md-4">
+								<p class="job_title">Web Developer<br />
+								PEI Manufacturing</p>
+							</div>
+							<div style="position: relative; left: 25vw;" class="col-md-3 col-md-offset-5">
+								<p class="job_title">04/05/2016 to 02/25/2017<br />
+								Portland, OR.</p>
+							</div>
 						</div>
-						<div class="col-md-3 col-md-offset-5">
-							<p class="job_title">04/05/2016 to 02/25/2017<br />
-							Portland, OR.</p>
-						</div>
+						
 						<div class="col-md-10 col-md-offset-1">
 							<p class="job_desc">Contact: Jarrod Royce             (360)831-3308</p>
 						</div>
@@ -211,6 +214,7 @@
     <div class="col-md-12">
       <h3 class="section_title">Skills</h3>
       <div id="skills_section">
+			 <div class="row">
         <div class="col-md-4">
           <h4 class="skills_title">Programming Languages</h4>
           <ul class="skills_list">
@@ -244,7 +248,8 @@
             <li>Google Analytics</li>
             <li>Google Ad Words</li>
           </ul>
-      </div>
+      	</div>
+			</div>
     </div>
   </div>
 
